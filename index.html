@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="gu">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,8 +17,13 @@
         .item { background: #f8fafc; padding: 16px; border-left: 4px solid #2563eb; border-radius: 6px; }
         .item h3 { margin: 0 0 6px; font-size: 17px; color: #0f172a; }
         .item p { margin: 0; font-size: 14px; color: #475569; line-height: 1.5; }
-        .btn { display: inline-block; background: #16a34a; color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; margin-top: 15px; transition: 0.2s; }
+        .contact-info p { margin: 8px 0; font-size: 16px; }
+        .contact-info a { color: #1e40af; text-decoration: none; font-weight: 500; }
+        .btn-group { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+        .btn { display: inline-block; background: #16a34a; color: white; padding: 13px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 15px; transition: 0.2s; }
         .btn:hover { background: #15803d; }
+        .btn-email { background: #2563eb; }
+        .btn-email:hover { background: #1d4ed8; }
         footer { text-align: center; padding: 20px; font-size: 14px; color: #64748b; }
     </style>
 </head>
@@ -29,33 +34,37 @@
     </header>
     <div class="container">
         <div class="card">
-            <h2>અમારી સેવાઓ (Our Services)</h2>
+            <h2>Our Services</h2>
             <div class="grid">
                 <div class="item">
                     <h3>PLC & HMI Programming</h3>
-                    <p>તમામ પ્રકારના ઈન્ડસ્ટ્રિયલ મશીનો માટે કસ્ટમ ઓટોમેશન પ્રોગ્રામિંગ.</p>
+                    <p>Custom industrial automation programming and logic development for all types of machinery.</p>
                 </div>
                 <div class="item">
                     <h3>Control Panels & VFD</h3>
-                    <p>Industrial Electrical Control Panels, AC/DC Drives અને પેનલ વાયરિંગ.</p>
+                    <p>Design and assembly of industrial electrical control panels, AC/DC drives, and panel wiring.</p>
                 </div>
                 <div class="item">
                     <h3>Industrial Sensors & Instruments</h3>
-                    <p>પ્રોક્સિમિટી સેન્સર્સ, ટેમ્પરેચર કંટ્રોલર્સ અને ઓટોમેશન પાર્ટ્સ.</p>
+                    <p>Supply and integration of proximity sensors, temperature controllers, and automation components.</p>
                 </div>
                 <div class="item">
                     <h3>Maintenance & Repairing</h3>
-                    <p>ઓટોમેશન સિસ્ટમનું ઝડપી રિપેરિંગ અને ટેકનિકલ સપોર્ટ.</p>
+                    <p>Prompt troubleshooting, repairing, and reliable technical support for automation systems.</p>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <h2>સંપર્ક કરો (Contact Us)</h2>
-            <p><strong>માલિક (Proprietor):</strong> કલ્પેશભાઈ પટેલ (Kalpeshkumar Patel)</p>
-            <p><strong>સ્થળ (Location):</strong> અમરાઈવાડી, અમદાવાદ, ગુજરાત (Amraiwadi, Ahmedabad)</p>
-            <a class="btn" href="https://wa.me/910000000000?text=Hello%20Kalpeshbhai,%20I%20am%20interested%20in%20Hitech%20Automation%20services." target="_blank">WhatsApp પર પૂછપરછ કરો</a>
+        <div class="card contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Location:</strong> Amraiwadi, Ahmedabad, Gujarat, India</p>
+            <p><strong>Phone / WhatsApp:</strong> <a href="tel:+919904302726">+91 99043 02726</a></p>
+            <p><strong>Email:</strong> <a href="mailto:sales.hitechautomation@gmail.com">sales.hitechautomation@gmail.com</a></p>
+            <div class="btn-group">
+                <a class="btn" href="https://wa.me/919904302726?text=Hello%20Hitech%20Automation%20and%20Control,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank">Chat on WhatsApp</a>
+                <a class="btn btn-email" href="mailto:sales.hitechautomation@gmail.com?subject=Business%20Inquiry%20-%20Hitech%20Automation">Send an Email</a>
+            </div>
         </div>
     </div>
-    <footer>© 2026 Hitech Automation and Control | Developed by Vansh Patel</footer>
+    <footer>© 2026 Hitech Automation and Control | All Rights Reserved</footer>
 </body>
-</html>
+</html>	
