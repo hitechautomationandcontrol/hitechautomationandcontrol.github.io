@@ -8,11 +8,12 @@
     <style>
         * { box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; background: #f0f4f8; color: #1e293b; }
-        header { background: #000000; color: white; padding: 35px 20px 55px; text-align: center; border-bottom: 4px solid #00a8e8; }
-        .logo { max-width: 240px; height: auto; margin-bottom: 12px; display: inline-block; }
-        header h1 { margin: 0; font-size: 30px; letter-spacing: 0.5px; color: #ffffff; }
-        header p { margin: 10px 0 0; font-size: 16px; color: #94a3b8; }
-        .container { max-width: 900px; margin: -30px auto 30px; padding: 0 15px; }
+        header { background: #000000; color: white; padding: 15px 15px 45px; text-align: center; border-bottom: 4px solid #00a8e8; }
+        .logo-wrap { max-width: 720px; width: 100%; margin: 0 auto; overflow: hidden; }
+        .logo { width: 100%; height: auto; display: block; margin-bottom: -16%; }
+        header h1 { margin: 14px 0 0; font-size: 32px; letter-spacing: 0.5px; color: #ffffff; position: relative; }
+        header p { margin: 8px 0 0; font-size: 16px; color: #94a3b8; position: relative; }
+        .container { max-width: 900px; margin: -28px auto 30px; padding: 0 15px; position: relative; z-index: 2; }
         .card { background: white; padding: 28px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); margin-bottom: 24px; }
         h2 { color: #0f172a; margin-top: 0; font-size: 22px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin-top: 15px; }
@@ -39,7 +40,9 @@
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="HAAC - Hitech Automation and Control Logo" class="logo">
+        <div class="logo-wrap">
+            <img src="logo.jpg" alt="HAAC - Hitech Automation and Control Logo" class="logo">
+        </div>
         <h1>Hitech Automation and Control</h1>
         <p>Industrial Automation, PLC, HMI & Control Panel Solutions | Ahmedabad</p>
     </header>
