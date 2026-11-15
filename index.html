@@ -17,13 +17,21 @@
         .item { background: #f8fafc; padding: 16px; border-left: 4px solid #2563eb; border-radius: 6px; }
         .item h3 { margin: 0 0 6px; font-size: 17px; color: #0f172a; }
         .item p { margin: 0; font-size: 14px; color: #475569; line-height: 1.5; }
+        .offer-card { background: linear-gradient(135deg, #fffbeb, #fef3c7); border: 2px dashed #f59e0b; }
+        .offer-badge { display: inline-block; background: #d97706; color: white; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .offer-card h2 { color: #b45309; border-bottom-color: #fde68a; }
+        .offer-card p { font-size: 16px; color: #78350f; margin: 8px 0 16px; line-height: 1.5; }
         .contact-info p { margin: 8px 0; font-size: 16px; }
         .contact-info a { color: #1e40af; text-decoration: none; font-weight: 500; }
-        .btn-group { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+        .btn-group { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 15px; }
         .btn { display: inline-block; background: #16a34a; color: white; padding: 13px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 15px; transition: 0.2s; }
         .btn:hover { background: #15803d; }
         .btn-email { background: #2563eb; }
         .btn-email:hover { background: #1d4ed8; }
+        .btn-amazon { background: #ff9900; color: #0f172a; }
+        .btn-amazon:hover { background: #e68a00; }
+        .btn-indiamart { background: #2e3192; color: white; }
+        .btn-indiamart:hover { background: #1f226e; }
         footer { text-align: center; padding: 20px; font-size: 14px; color: #64748b; }
     </style>
 </head>
@@ -58,6 +66,17 @@
                 </div>
             </div>
         </div>
+
+        <div class="card offer-card">
+            <span class="offer-badge">Special Online Offer</span>
+            <h2>Buy Online & Get 10% Discount!</h2>
+            <p>Click on our official <strong>Amazon</strong> or <strong>IndiaMART</strong> store links below to explore and purchase industrial automation & switchgear products and get an exclusive <strong>10% discount</strong>!</p>
+            <div class="btn-group">
+                <a class="btn btn-amazon" href="https://www.amazon.in/s?me=A28A0AZ60EOA51&ref=sf_seller_app_share_new" target="_blank">Buy on Amazon (10% Off)</a>
+                <a class="btn btn-indiamart" href="https://www.indiamart.com/hitechautomationandcontrol/" target="_blank">Buy on IndiaMART (10% Off)</a>
+            </div>
+        </div>
+
         <div class="card contact-info">
             <h2>Contact Us</h2>
             <p><strong>Location:</strong> Amraiwadi, Ahmedabad, Gujarat, India</p>
